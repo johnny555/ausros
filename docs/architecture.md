@@ -4,8 +4,6 @@ We are using ROS 2, with Python. It's `rclpy` library.
 
 When making a project, use ament-cmake instead of ament-python and use CMake instead of setup.py. 
 
-For simulator we will use Gazebo Harmonic (not Gazebo Classic i.e. 11). This means use `ros-jazzy-ros-gz-sim` instead of `ros-jazzy-gazebo-ros`.
-
 Use standard ROS message types where ever possible.
 
 Design nodes to have a single purpose.
@@ -14,7 +12,7 @@ Orchestrate the system using Behavior Trees.
 
 This repo should implement atleast one ros2 package named `explorer_bot` at `src/explorer_bot`
 
-We are using ROS 2 Jazzy.
+We are using ROS 2 humble.
 
 # Standard ROS Setup 
 
