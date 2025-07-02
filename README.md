@@ -8,6 +8,10 @@ Look in the `docs` folder to see some example prompts. Feel free to modify these
 
 Note we are using jazzy (not humble) because gazebo (harmonic) binaries exist for arm64, but not on humble. 
 
+# Requirements 
+
+This should work on Windows, Mac or Linux. You just need VS Code and docker. It stands up a VNC server in the container that is accessible from localhost:6080
+
 # Steps 
 
 ## Setup 
