@@ -12,7 +12,7 @@ Orchestrate the system using Behavior Trees.
 
 This repo should implement atleast one ros2 package named `explorer_bot` at `src/explorer_bot`
 
-We are using ROS 2 humble.
+We are using ROS 2 jazzy.
 
 # Standard ROS Setup 
 
@@ -23,6 +23,10 @@ When building, always build with `colcon build --merge-install --symlink-install
 Use `TwistStamped` instead of `Twist` message data types.
 
 Create parameter `yaml` files instead of passing parameters to nodes in launch files.
+
+## External Packages 
+
+We are using the turtlebot3 example worlds in the repos located at `/workspace/src/turtlebot3_simulation`. 
 
 
 ## MultiThreading
