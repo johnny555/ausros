@@ -213,4 +213,5 @@ brackets):
 `ros2 run waypoint_commander waypoint_cycler`
 
 To kick off waypoint_cycler you need to first send a manual waypoint to the TurtleBot3 (either in
-RViz or through the command line). Once it reaches
+RViz or through the command line). Once it reaches this waypoint, it will begin cycling through the
+two manually defined waypoints.
