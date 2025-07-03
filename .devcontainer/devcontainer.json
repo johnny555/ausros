@@ -1,0 +1,52 @@
+{
+    "name": "AusROS Practical",
+    "image": "johnny555/ausros:2025",
+    "remoteUser": "ubuntu",
+    "overrideCommand": false,
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+    "workspaceFolder": "/workspace",
+    "containerEnv": {
+        "DISPLAY": ":1"
+    },
+    "appPort": [
+        "6080:80"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "betwo.b2-catkin-tools",
+                "DotJoshJohnson.xml",
+                "ms-azuretools.vscode-docker",
+                "ms-iot.vscode-ros",
+                "ms-python.python",
+                "ms-vscode.cpptools",
+                "redhat.vscode-yaml",
+                "smilerobotics.urdf",
+                "streetsidesoftware.code-spell-checker",
+                "twxs.cmake",
+                "yzhang.markdown-all-in-one",
+                "jaehyunshim.vscode-ros2",
+                "llvm-vs-code-extensions.vscode-clangd",
+                "ms-python.vscode-pylance",
+                "ms-iot.vscode-ros",
+                "github.vscode-pull-request-github"
+            ],
+            "settings": {
+                "terminal.integrated.profiles.linux": {
+                    "bash": {
+                        "path": "/bin/bash"
+                    }
+                },
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "python.languageServer": "Pylance",
+                "python.formatting.provider": "black",
+                "editor.formatOnSave": true,
+                "C_Cpp.clang_format_path": "clang-format",
+                "C_Cpp.clang_format_fallbackStyle": "Google",
+                "C_Cpp.formatting": "default",
+                "ros.distro": "jazzy",
+                "ros.packagePath": "/opt/ros/jazzy/share/"
+            }
+        }
+    }
+}
